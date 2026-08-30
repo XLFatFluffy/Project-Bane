@@ -9,27 +9,7 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="shell">
-  <aside class="sidebar">
-    <div class="brand"><div class="mark">B</div><div><b>PROJECT BANE</b><span>52-WEEK TRANSFORMATION</span></div></div>
-    <nav>
-      <button class="nav active" data-view="dashboard">Today</button>
-      <button class="nav" data-view="today">Workout</button>
-      <button class="nav" data-view="nutrition">Food</button>
-      <button class="nav" data-view="progress">Progress</button>
-      <button class="nav" data-view="history">History</button>
-      <button class="nav" data-view="sources">Sources</button>
-    </nav>
-    <div class="sync"><i></i>Local data active</div>
-  </aside>
-  <main>
-    <header>
-      <div><div class="eyebrow" id="dateLabel"></div><h1 id="pageTitle">Today</h1></div>
-      <button class="primary" id="printTop">Print Today's Workout</button>
-    </header>
-    <div id="view"></div>
-  </main>
-</div>
-<script type="module" src="app.js"></script>
+<div id="root"></div>
+<script type="module" src="app.mjs"></script>
 </body>
 </html>
