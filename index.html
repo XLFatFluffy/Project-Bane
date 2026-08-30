@@ -5,13 +5,17 @@
 <meta name="viewport" content="width=1400">
 <title>Project Bane</title>
 <meta name="description" content="Project Bane daily training, nutrition and progress command center.">
-<script src="https://cdn.sheetjs.com/xlsx-0.20.3/package/dist/xlsx.full.min.js"></script>
+<script src="https://cdn.sheetjs.com/xlsx-0.20.3/package/xlsx.full.min.js"></script>
 <link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="builder.css">
+<style>
+#bane-food-overlay{position:fixed;inset:0;background:rgba(0,0,0,.58);z-index:9999;display:none;padding:5vh 7vw;overflow:auto}#bane-food-overlay.open{display:block}.food-modal{max-width:1050px;margin:auto;background:#fff;border-radius:18px;padding:28px;box-shadow:0 25px 80px rgba(0,0,0,.3)}.food-head{display:flex;justify-content:space-between;align-items:center}.food-head h2{margin:4px 0 12px}.food-list{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:18px}.food-card{display:flex;justify-content:space-between;text-align:left;align-items:center;padding:16px;border:1px solid #ddd;border-radius:12px;background:#fafafa;cursor:pointer}.food-card:hover{transform:translateY(-1px);box-shadow:0 4px 14px #ddd}.food-card span{display:block;font-size:12px;opacity:.65;margin-top:4px}.food-card strong{font-size:12px}.food-actions{display:flex;gap:10px;margin-top:18px}.food-editor{margin-top:20px;padding:18px;background:#f5f5f5;border-radius:12px;display:grid;grid-template-columns:1fr 1fr;gap:10px}.food-editor h3,.food-editor button{grid-column:1/-1}.food-modal input,.food-modal select{padding:11px;border:1px solid #ccc;border-radius:8px}.food-modal #food-search{width:100%;margin-top:10px}.food-modal button{padding:10px 14px;border:1px solid #ccc;border-radius:8px;background:#fff;cursor:pointer}.food-modal button.primary{background:#111;color:#fff;border-color:#111}
+</style>
 </head>
 <body>
 <div id="root"></div>
 <script type="module" src="bane-app.mjs"></script>
 <script type="module" src="program-builder-ui.js"></script>
+<script type="module" src="food-library-ui.mjs"></script>
 </body>
 </html>
