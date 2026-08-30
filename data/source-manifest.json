@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "project": "Project Bane",
+  "activeProgram": "block-1",
+  "programs": [
+    {
+      "id": "block-1",
+      "label": "Block 1",
+      "weeks": "Weeks 1–4",
+      "type": "workout-program",
+      "data": "program.json",
+      "canonicalSourcePattern": "Project_Bane_Block*_Workout_Program_CANONICAL_*.xlsx"
+    }
+  ],
+  "nutrition": {
+    "data": "nutrition.json",
+    "canonicalSourcePattern": "Project_Bane_Meal_Log_CANONICAL_*.xlsx"
+  },
+  "handoff": {
+    "canonicalSourcePattern": "Project Bane — Workout System Handoff*.md"
+  },
+  "rules": {
+    "historyIsImmutable": true,
+    "sourcePreviewBeforeApply": true,
+    "preserveNetCarbs": true,
+    "programSelectionByCalendar": true
+  }
+}
