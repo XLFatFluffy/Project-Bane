@@ -1,0 +1,17 @@
+[
+  {"date":"2026-08-27","meal":"Meal","food":"Regular hamburger patties","quantity":"2 patties","calories":400,"protein":32,"carbs":0,"fiber":0,"netCarbs":0,"notes":"Estimated; user described two regular patties."},
+  {"date":"2026-08-27","meal":"Meal","food":"Mayonnaise","quantity":"1 packet","calories":100,"protein":0,"carbs":0,"fiber":0,"netCarbs":0,"notes":"Estimated packet; user reported one packet."},
+  {"date":"2026-08-27","meal":"Meal","food":"Salad","quantity":"Medium; ~80% loosely packed","calories":80,"protein":3,"carbs":8,"fiber":2,"netCarbs":6,"notes":"Estimated salad; no dressing."},
+  {"date":"2026-08-27","meal":"Meal","food":"Boiled chicken","quantity":"Large handful on salad","calories":150,"protein":28,"carbs":0,"fiber":0,"netCarbs":0,"notes":"Estimated portion."},
+  {"date":"2026-08-27","meal":"Meal","food":"Baked beans","quantity":"Small serving","calories":120,"protein":5,"carbs":22,"fiber":4,"netCarbs":18,"notes":"Estimated serving."},
+  {"date":"2026-08-27","meal":"Meal","food":"Homemade chips","quantity":"Handful","calories":150,"protein":2,"carbs":18,"fiber":2,"netCarbs":16,"notes":"Estimated handful."},
+  {"date":"2026-08-28","meal":"Meal","food":"Green apple","quantity":"1 medium apple","calories":95,"protein":0.5,"carbs":25,"fiber":4,"netCarbs":21,"notes":"Historical entry; fruit was later removed going forward."},
+  {"date":"2026-08-28","meal":"Meal","food":"Salad","quantity":"Medium-large; usual salad","calories":170,"protein":10,"carbs":8,"fiber":2,"netCarbs":6,"notes":"Usual salad; no dressing."},
+  {"date":"2026-08-28","meal":"Meal","food":"Shredded chicken","quantity":"2 regular handfuls","calories":330,"protein":60,"carbs":0,"fiber":0,"netCarbs":0,"notes":"Estimated portion."},
+  {"date":"2026-08-28","meal":"Drink","food":"Orange Sqwincher","quantity":"16 oz","calories":90,"protein":0,"carbs":22,"fiber":0,"netCarbs":22,"notes":"User supplied 90 calories and 22g sugar."},
+  {"date":"2026-08-28","meal":"Meal","food":"Tuna salad","quantity":"1 cup; very light additives","calories":275,"protein":42,"carbs":2,"fiber":0,"netCarbs":2,"notes":"Revised estimate after clarification."},
+  {"date":"2026-08-28","meal":"Meal","food":"Salad","quantity":"Usual salad","calories":170,"protein":10,"carbs":8,"fiber":2,"netCarbs":6,"notes":"Usual salad; no dressing."},
+  {"date":"2026-08-28","meal":"Meal","food":"Chicken","quantity":"8 oz cooked","calories":375,"protein":70,"carbs":0,"fiber":0,"netCarbs":0,"notes":"Estimated cooked chicken portion."},
+  {"date":"2026-08-29","meal":"Meal","food":"Salad","quantity":"Usual salad; medium-large","calories":170,"protein":10,"carbs":8,"fiber":2,"netCarbs":6,"notes":"Usual salad; no dressing."},
+  {"date":"2026-08-29","meal":"Meal","food":"Chicken breasts","quantity":"3 × 4 oz cooked (12 oz total)","calories":560,"protein":105,"carbs":0,"fiber":0,"netCarbs":0,"notes":"Estimated from three 4-oz chicken breasts."}
+]
