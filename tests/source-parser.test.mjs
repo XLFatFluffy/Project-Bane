@@ -1,0 +1,12 @@
+import assert from 'node:assert/strict';
+import { parseWorkoutRows, parseWorkoutSummaryRows, parseConditioningRows, parseMealRows, buildProgram } from '../source-parser.mjs';
+const dayRows=[['Section','Exercise','Sets','Rep Range'],['PRIMARY','Barbell Bench Press','4','8–12'],['SUPERSET 1','XR 45 Chest Press','4','10–15']];
+assert.deepEqual(parseWorkoutRows(dayRows),[{section:'PRIMARY',exercise:'Barbell Bench Press',sets:4,reps:'8–12'},{section:'SUPERSET 1',exercise:'XR 45 Chest Press',sets:4,reps:'10–15'}]);
+const summary=[['x'],['x'],['x'],['DAY','FOCUS','PRIMARY','SUPERSET 1'],['MONDAY','CHEST + TRICEPS','Barbell Bench Press — 4 × 8–12','XR 45 Chest Press — 4 × 10–15\nChain Triceps Pushdown — 4 × 10–15']];
+assert.equal(parseWorkoutSummaryRows(summary)[0].exercises.length,3);
+const cond=[['x'],['x'],['x'],['DAY','CARDIO / CONDITIONING','CORE EMPHASIS','CORE WORKOUT','INTENT','NOTES / TRACKING'],['TUESDAY','25 min jog','Upper abs','3 rounds','Moderate','Track time']];
+assert.equal(parseConditioningRows(cond)[0].day,'TUESDAY');
+const meal=[['Date','Meal','Food / Drink','Quantity / Serving','Calories','Protein (g)','Total Carbs (g)','Fiber (g)','Net Carbs (g)','Notes'],['2026-08-30','Lunch','Chicken salad','1',430,55,8,3,'','estimate']];
+assert.equal(parseMealRows(meal)[0].netCarbs,5);
+assert.equal(buildProgram(summary,{Monday:dayRows},cond).days.MONDAY.exercises.length,2);
+console.log('Project Bane source parser tests passed');
