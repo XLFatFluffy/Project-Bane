@@ -1,0 +1,8 @@
+[
+  {"id":"bench-press","name":"Barbell Bench Press","muscleGroups":["Chest","Triceps","Front Delts"],"equipment":"Barbell","movement":"Horizontal Push"},
+  {"id":"barbell-row","name":"Barbell Row","muscleGroups":["Back","Biceps"],"equipment":"Barbell","movement":"Horizontal Pull"},
+  {"id":"upright-row","name":"Upright Row","muscleGroups":["Side Delts","Traps"],"equipment":"Barbell","movement":"Vertical Pull"},
+  {"id":"barbell-shrug","name":"Barbell Shrug","muscleGroups":["Traps"],"equipment":"Barbell","movement":"Shoulder Elevation"},
+  {"id":"dumbbell-fly","name":"Dumbbell Fly","muscleGroups":["Chest"],"equipment":"Dumbbell","movement":"Horizontal Adduction"},
+  {"id":"straight-arm-pulldown","name":"Straight-Arm Pulldown","muscleGroups":["Lats","Back"],"equipment":"Cable","movement":"Shoulder Extension"}
+]
